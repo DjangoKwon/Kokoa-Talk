@@ -1,0 +1,31 @@
+.status-ba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 3px;
+}
+
+.status-ba__column {
+  width: 33%;
+}
+
+.status-ba__column:first-child span {
+  margin-right: 5px;
+  align-items: center;
+}
+
+.status-ba__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-ba__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-ba__column .fa-battery-full {
+  margin: 0px 5px;
+}
