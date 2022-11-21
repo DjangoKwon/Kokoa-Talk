@@ -13,6 +13,11 @@
   height: 70px;
   border-radius: 27px;
   margin-right: 20px;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.user-component__avatar:hover {
+  box-shadow: 5px 5px 5px var(--yellow);
 }
 
 .user-component__title {

@@ -16,3 +16,11 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+
+.fa-volume-high {
+  transition: all 
+}
+
+.fa-volume-high:hover {
+  margin-right: 100px;
+}
